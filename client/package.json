@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "npm install webpack && webpack --mode development",
+    "build": "npm install --include=dev && webpack --mode development",
     "dev": "webpack-dev-server",
     "start": "webpack --watch"
   },
