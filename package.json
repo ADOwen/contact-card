@@ -28,5 +28,8 @@
   "homepage": "https://github.com/ADOwen/contact-card#readme",
   "dependencies": {
     "concurrently": "^7.5.0"
+  },
+  "devDependencies": {
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }
